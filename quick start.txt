@@ -1,0 +1,15 @@
+!Instale o node + npm antes
+
+Cole os arquivos e pastas em um diretório de sua preferência.
+Abra seu terminal no diretório onde colou os arquivos.
+Digite: "npm install" e aguarde o donwload das dependências terminar.
+Digite: "npm start" e espere a mensagem de confirmação que a expressAPI está rodando.
+
+OBS:
+Caso esteja baixando a versão Open Source, configure os arquivos:
+/src/core/config.js (mongoose, jwt)
+/src/core/config.Mailer.json (mailtrap)
+/src/app/services/Mailer/index.js (sendgrid)
+
+Usa o Insomnia? Baixe o Workspace:
+https://www.dropbox.com/s/d1aewaw8hgtmgic/expressAPI%20Insomnia%20Workspace.json?dl=0

@@ -1,0 +1,28 @@
+{
+  "name": "nodejs-api-rest",
+  "version": "1.0.0",
+  "description": "Criando uma API REST com nodeJS",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./src/index.js"
+  },
+  "author": "Daniel Bonifacio (https://danielbonifacio.com.br)",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^1.17.2"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.2",
+    "crypto": "^1.0.1",
+    "express": "^4.14.0",
+    "jwt-simple": "^0.5.1",
+    "moment": "^2.21.0",
+    "mongoose": "^5.0.11",
+    "nodemailer": "^4.6.3",
+    "nodemailer-express-handlebars": "^3.0.0",
+    "nodemailer-sendgrid-transport": "^0.2.0",
+    "normalize-port": "^1.0.0",
+    "sendgrid": "^5.2.3"
+  }
+}
